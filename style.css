@@ -77,7 +77,7 @@ img {
 @media all and (max-width:420px){
 
   .row {
-    width: 100%;
+    width: 80%;
   }
   
   #lezioni .row>.left,
@@ -88,6 +88,22 @@ img {
     float: none;
     width: 100%;
   }
+
+  #lezioni .row img {
+    margin-top: 20px;
+  }
+
+  #steps .row img {
+    margin-top: 20px;
+  }
+
+
+
+  /* #steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  width: 33%;
+} */
 
 
   /* #lezioni .row {
