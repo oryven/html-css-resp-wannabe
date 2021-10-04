@@ -76,7 +76,21 @@ img {
 
 @media all and (max-width:420px){
 
-  #lezioni .row {
+  .row {
+    width: 100%;
+  }
+  
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+
+  /* #lezioni .row {
     font-size: 16px;
     text-align: center;
     width: 100%;
@@ -95,15 +109,10 @@ img {
   #lezioni .row>.right img {
   width: 70%; 
   height: 70%;
-  }
+  } */
 
 
 }
 
-
-  /* #lezioni .row>.left img, #lezioni .row>.right img {
-    display: block;
-    width: 100px;
-  }
 
 
